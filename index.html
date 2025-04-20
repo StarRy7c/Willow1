@@ -31,7 +31,7 @@ async function init() {
   player.configure({  
     drm: {  
       clearKeys: {  
-        "41cc604b8c232e69e850cc76fc7c5da1": "4c6593f619b10e9c00b446ffcb1e53af"  
+        "185639528ebdc15a01bd23b7620110b7": "28b94440143e78cf2190c409cf822c44""  
       }  
     }  
   });  
@@ -41,7 +41,7 @@ async function init() {
   
   try {  
     // ✅ Set your MPD URL here  
-    await player.load("https://ABGQJFUAAAAAAAAMJG47XBR24JNK7.5585d58ad0ad47ec9147be5b551e6277.emt.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/g7lle69upt/out/v1/e67fdb7dbb6c421d9aa016def25b6ea8/cenc.mpd");  
+    await player.load("https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/4kawe29aco/out/v1/9f2e8dfbab5a4d17af2b5a8203d65c55/cenc.mpd?|drmScheme=clearkey&drmLicense=185639528ebdc15a01bd23b7620110b7:28b94440143e78cf2190c409cf822c44");  
     console.log("✅ Video loaded");  
   } catch (e) {  
     onPlayerError(e);  
