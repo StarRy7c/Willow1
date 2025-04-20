@@ -42,8 +42,7 @@ async function init() {
   try {  
     // ✅ Set your MPD URL here  
     await player.load("https://ABGQJFUAAAAAAAAMJG47XBR24JNK7.5585d58ad0ad47ec9147be5b551e6277.emt.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/g7lle69upt/out/v1/e67fdb7dbb6c421d9aa016def25b6ea8/cenc.mpd");  
-    console.log("✅ Video 
-                loaded");  
+    console.log("✅ Video loaded");  
   } catch (e) {  
     onPlayerError(e);  
   }  
@@ -62,7 +61,7 @@ function onUIErrorEvent(errorEvent) {
 }  
   
 document.addEventListener("shaka-ui-loaded", init);  
-  </script>    
+  </script>  
 
 </body></html>
 <!DOCTYPE html>
